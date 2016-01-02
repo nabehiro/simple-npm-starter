@@ -1,3 +1,5 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 var config = {
     entry: './src/main.js',
     output: {
@@ -24,6 +26,11 @@ var config = {
             }
         ]
     },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: 'src/index.html'
+      })
+    ],
     resolve: {
       root: './src',
       extensions: ['', '.js', '.jsx']

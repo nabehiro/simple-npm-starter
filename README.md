@@ -13,11 +13,6 @@ download tsd(typescript definition) files.
 ## run dev mode (watch)
 > npm run start
 
-# .gitignores
-- node_modules/
-- dist/
-- typings/
-
 # References
 [krasimir/react-webpack-starter](https://github.com/krasimir/react-webpack-starter)
 
